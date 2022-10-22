@@ -1,0 +1,22 @@
+div{margin: auto;
+    width: 90%;
+    padding: .5px;
+   
+    background-color: aqua;
+}
+#a{
+    border:  solid black;
+    background-color: rgb(225, 129, 19);
+}
+body{
+    background-color:blanchedalmond;
+}
+#b{
+
+    border:dotted black;
+}
+#c{
+    border:solid black;
+}
+#m{color:rgb(255, 0, 144);   
+}
