@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    <style>
+        
+    table,th,td { 
+        border: 1px solid black ;
+    }
+    </style>
+    <div id="di" >
+        <table id="t" >
+            
+            <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>gender</th>
+            <th>training</th>
+            <th>city</th>
+            <th>university</th>
+            <th>cost</th></tr>
+            <tr>
+                <td>oday</td>
+                <td>24</td>
+                <td>male</td>
+                <td>fs</td>
+                <td>aqaba</td>
+                <td>aut</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>ammar</td>
+                <td>17</td>
+                <td>male</td>
+                <td>med</td>
+                <td>aqaba</td>
+                <td>spa</td>
+                <td>500$</td>
+            </tr>
+            <tr>
+                <td>kareem</td>
+                <td>14</td>
+                <td>male</td>
+                <td>med</td>
+                <td>aqaba</td>
+                <td>tur</td>
+                <td><del>1000$</del>800$</td>
+            </tr>
+        </table></div>
+        <h2>if you want to modify the data , fill</h2>
+        <div>
+       <label for="text">USER NAME</label>
+       <input type="text"><br><br>
+        <label for="number">AGE </label>
+        <input type="number"><br><br>
+        <label for="text">your university</label>
+        <input type="text">  <br><br>
+        <label for="gender">gender</label>
+        <label for="male">male</label>
+         <input type="radio"value=male name="male" >
+         <label for="female">female</label>
+         <input type="radio" value=female name="male">
+         
+         <p>Training</p>
+         <ul>
+            <li> <input type="checkbox">ToT </li>
+            <li> <input type="checkbox">QA </li>
+            <li> <input type="checkbox">HTML </li>
+            <li> <input type="checkbox">SQL </li>
+            <li> <input type="checkbox">TOEFL </li>
+         </ul>
+         <label for="">city</label>
+         <select name="city" id="city">
+           <option value="">aqaba</option>
+            <option value="">amman</option>
+        </div>
+        <input type="submit">
+    
+</body>
+</html>
